@@ -9,7 +9,6 @@ body{
     float: left;
     color: white;
     margin-top: 40px;
-
 }
 #spc0{
 
@@ -22,6 +21,7 @@ body{
     height: 100%;
     width: 100%;
     padding-top: 40px;
+    margin-bottom: 100px;
 }
 #blc{
     display: inline-block;
@@ -33,36 +33,128 @@ body{
     text-align: center;
     opacity: 1.25;
     font-family: sans-serif;
-    font-size: 300%;
+    font-size: 3.5vw;
     color: white;
     padding-top: 10%;
 }
 #hd1{
     opacity: 1.25;
     font-family: sans-serif;
-    font-size: 260%;
+    font-size: 3vw;
     color: white;
     padding-bottom: 10%;
 }
-header{
-    margin-bottom: 100px;
+.secs{
+    position: relative;
+    text-align: center;
+    color: white;
 }
-#pimg{
+#fimg,#bimg,#aimg,#pimg{
     width: 300px;
     height: 300px;
     margin-right: 20px;
+    margin-bottom: 15px;
 }
-#aimg{
-    width: 300px;
-    height: 300px;
-    margin-right: 20px;
+#fimg:hover,#bimg:hover,#aimg:hover,#pimg:hover{
+    opacity: 0.7;
 }
-#bimg{
-    width: 300px;
-    height: 300px;
-    margin-right: 20px;
+@media screen and (min-width: 800px) {
+
+    #pimg, #aimg, #bimg, #fimg {
+        width: 20%;
+        height: 20%;
+    }
+    .title{ /*AVF Magazine */
+        float: left;
+        color: white;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+    .music,.art,.lit.flm{
+        background-color: rgba(0,0,0,0.7);
+/*        padding: 20%;
+                padding-right: 11%;
+                padding-left: 11%;*/
+        position: absolute;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+    }
+    .music{
+        top: 50%;
+        left: 17%;
+    }
+    .art{
+        position: absolute;
+        top: 50%;
+        left: 39%;
+    }
+    .lit{
+        top: 50%;
+        left: 60%;
+    }
+    .flm{
+        padding: 20%;
+        top: 50%;
+        left: 82%;
+    }
 }
-#fimg{
-    width: 300px;
-    height: 300px;
+@media screen and (min-width:644px) and (max-width: 800px) {
+    .music,.art,.lit.flm{
+        background-color: rgba(0,0,0,0.7);
+        padding: 20%;
+        padding-right: 11%;
+        padding-left: 11%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+    }
+    .music{
+        top: 23%;
+        left: 28%;
+    }
+    .art{
+        padding: 20%;
+        top: 23%;
+        left: 28%;
+    }
+    .lit{
+        top: 23%;
+        left: 28%;
+    }
+    .flm{
+        padding: 20%;
+        top: 23%;
+        left: 28%;
+    }
+}
+@media screen and (max-width: 643px) { /*done*/
+    .music,.art,.lit.flm{
+        background-color: rgba(0,0,0,0.7);
+        padding: 20%;
+        padding-right: 11%;
+        padding-left: 11%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+    }
+
+    .music{
+        top: 12%;
+        left: 50%;
+    }
+    .art{
+        padding: 20%;
+        top: 39%;
+        left: 50%;
+    }
+    .lit{
+        top: 62%;
+        left: 50%;
+    }
+    .flm{
+        padding: 20%;
+        top: 87%;
+        left: 50%;
+    }
+
 }
