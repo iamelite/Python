@@ -1,0 +1,78 @@
+﻿body{
+    background-color: #121212;
+}
+.menu{
+    color: white;
+    float: right;
+}
+.title{ /*AVF Magazin */
+    float: left;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+
+}
+#spc0{
+
+    margin: 40px;
+}
+.head{
+    background-image:url("images/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+    height: 400px;
+    width: fit-content;
+    padding-top: 40px;
+}
+#blc{
+    background-color: black;
+    width:200%;
+    background: rgba(0,0,0,0.7);
+}
+#hd0{
+    opacity: 1.25;
+    font-family: sans-serif;
+    font-size: 50px;
+    color: white;
+    padding-top: 10%;
+}
+#hd1{
+    opacity: 1.25;
+    font-family: sans-serif;
+    font-size: 70px;
+    color: white;
+}
+#hd1{
+    opacity: 1.25;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: white;
+    padding-bottom: 20%;
+}
+header{
+    margin-bottom: 100px;
+}
+#pimg{
+    background-image: url("images/p.jpg");
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+}
+#aimg{
+    background-image: url("images/art.jpg");
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+}
+#bimg{
+    background-image: url("images/b.jpg");
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+}
+#fimg{
+    background-image: url("images/f.jpg");
+    width: 300px;
+    height: 300px;
+}
