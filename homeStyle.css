@@ -1,17 +1,244 @@
-﻿body{
+body{
     background-color: #121212;
 }
 .menu{
+    padding-top: 50px;
     color: white;
     float: right;
+    width: 30%;
 }
-.title{ /*AVF Magazin */
+a{
+    text-decoration: none;
+    margin-right: 5%;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: #cacaca;
+}
+/************************************************************************************************************/
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #121212;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #121212;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #121212;
+    color: darkgrey;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #121212;
+    color: darkgrey;
+}
+/************************************************************************************************************/
+/************************************************************************************************************/
+/* Style The Dropdown Button */
+.dropbtn0 {
+    background-color: #121212;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown0 {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content0 {
+    display: none;
+    position: absolute;
+    background-color: #121212;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content0 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content0 a:hover {
+    background-color: #121212;
+    color: darkgrey;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown0:hover .dropdown-content0 {
+    display: block;
+}
+
+/* Change the color of the dropdown button when the dropdown content is shown */
+.dropdown0:hover .dropbtn0 {
+    background-color: #121212;
+    color: darkgrey;
+}
+/************************************************************************************************************/
+/************************************************************************************************************/
+/* Style The Dropdown Button */
+.dropbtn1 {
+    background-color: #121212;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #121212;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content1 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content1 a:hover {
+    background-color: #121212;
+    color: darkgrey;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+/* Change the color of the dropdown button when the dropdown content is shown */
+.dropdown1:hover .dropbtn1 {
+    background-color: #121212;
+    color: darkgrey;
+}
+/************************************************************************************************************/
+/************************************************************************************************************/
+/* Style The Dropdown Button */
+.dropbtn2 {
+    background-color: #121212;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #121212;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content2 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content2 a:hover {
+    background-color: #121212;
+    color: darkgrey;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+/* Change the color of the dropdown button when the dropdown content is shown */
+.dropdown2:hover .dropbtn2 {
+    background-color: #121212;
+    color: darkgrey;
+}
+/************************************************************************************************************/
+
+.title{ /*AVF Magazine */
     float: left;
-    background-color: black;
     color: white;
     margin-top: 40px;
-
+    cursor: context-menu;
+    border: none;
+    background-color: rgba(0,0,0,0);
+    font-size: 3vw;
 }
+.title0{display: none;}
 #spc0{
 
     margin: 40px;
@@ -20,59 +247,120 @@
     background-image:url("images/1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 200px;
-    height: 400px;
-    width: fit-content;
-    padding-top: 40px;
+    height: 100%;
+    width: 100%;
+    padding-top: 60px;
+    margin-bottom: 100px;
+    float: right;
+    padding-bottom: 86px;
+    left: -50%; /* or right 50% */
+    text-align: left;
+}
+.head > #blc {
+    position: center;
+    left: 50%;
 }
 #blc{
-    background-color: black;
-    width:200%;
-    background: rgba(0,0,0,0.7);
+    display: inline-block;
+    width:40%;
+    background-color: rgba(0,0,0,0.7);
+    margin-left: 30%;
 }
 #hd0{
+    text-align: center;
     opacity: 1.25;
     font-family: sans-serif;
-    font-size: 50px;
+    font-size: 3.5vw;
     color: white;
-    padding-top: 10%;
+    padding-top: 15%;
+    cursor: context-menu;
 }
 #hd1{
     opacity: 1.25;
     font-family: sans-serif;
-    font-size: 70px;
+    font-size: 3vw;
     color: white;
+    padding-bottom: 10%;
+    cursor: context-menu;
 }
-#hd1{
-    opacity: 1.25;
-    font-family: sans-serif;
-    font-size: 40px;
+#devi{
+    font-size: 6vw;
+}
+
+.secs{
     color: white;
-    padding-bottom: 20%;
+    float: right;
+    position: relative;
+    left: -50%; /* or right 50% */
+    text-align: center;
 }
-header{
-    margin-bottom: 100px;
-}
-#pimg{
+#pimg,#aimg,#bimg,#fimg{
     background-image: url("images/p.jpg");
+    background-size: 300px;
+    background-repeat: no-repeat;
     width: 300px;
     height: 300px;
-    margin-right: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 50%;
 }
+
 #aimg{
     background-image: url("images/art.jpg");
-    width: 300px;
-    height: 300px;
-    margin-right: 20px;
 }
 #bimg{
     background-image: url("images/b.jpg");
-    width: 300px;
-    height: 300px;
-    margin-right: 20px;
 }
 #fimg{
     background-image: url("images/f.jpg");
-    width: 300px;
-    height: 300px;
 }
+
+.mscb{
+    border: black;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    padding: 50px;
+    margin-top: 100px;
+    font-size: 40px;
+}
+.mscb:hover {
+    border: black;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    margin-top: 100px;
+    font-size: 40px;
+    cursor: pointer;
+}
+/*********************************************/
+@media screen and (max-width: 800px) {
+    .ddm{
+        text-align: center;
+        display: none;
+    }
+    .title{
+        text-align: center;
+        background-color: #101010;
+        padding: 40px;
+        margin: 0px;
+        font-size: 20px;
+        width: 100%;
+    }
+    #hd0, #hd1{
+        font-size: 20px;
+    }
+    #blc{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+@media screen and (min-width: 801px){
+    .ddm{
+        display: inline-block;
+        float: right;
+
+}
+
+
