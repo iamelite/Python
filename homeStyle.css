@@ -1,21 +1,6 @@
 body{
     background-color: #121212;
 }
-.menu{
-    padding-top: 50px;
-    color: white;
-    float: right;
-    width: 30%;
-}
-a{
-    text-decoration: none;
-    margin-right: 5%;
-    color: white;
-}
-a:hover{
-    text-decoration: none;
-    color: #cacaca;
-}
 /************************************************************************************************************/
 /* Style The Dropdown Button */
 .dropbtn {
@@ -28,202 +13,44 @@ a:hover{
 }
 
 /* The container <div> - needed to position the dropdown content */
-.dropdown {
+.drpdn {
     position: relative;
     display: inline-block;
     float: right;
 }
 
 /* Dropdown Content (Hidden by Default) */
-.dropdown-content {
+.lst {
     display: none;
     position: absolute;
     background-color: #121212;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
+.lst a {
     color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-    background-color: #121212;
-    color: darkgrey;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Change the color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: #121212;
-    color: darkgrey;
-}
-/************************************************************************************************************/
-/************************************************************************************************************/
-/* Style The Dropdown Button */
-.dropbtn0 {
-    background-color: #121212;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
     cursor: pointer;
 }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown0 {
-    position: relative;
-    display: inline-block;
-    float: right;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content0 {
-    display: none;
-    position: absolute;
-    background-color: #121212;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content0 a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
 /* Change color of dropdown links on hover */
-.dropdown-content0 a:hover {
+.lst a:hover {
     background-color: #121212;
     color: darkgrey;
 }
 
 /* Show the dropdown menu on hover */
-.dropdown0:hover .dropdown-content0 {
+.drpdn:hover .lst {
     display: block;
 }
 
 /* Change the color of the dropdown button when the dropdown content is shown */
-.dropdown0:hover .dropbtn0 {
-    background-color: #121212;
-    color: darkgrey;
-}
-/************************************************************************************************************/
-/************************************************************************************************************/
-/* Style The Dropdown Button */
-.dropbtn1 {
-    background-color: #121212;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown1 {
-    position: relative;
-    display: inline-block;
-    float: right;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content1 {
-    display: none;
-    position: absolute;
-    background-color: #121212;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content1 a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content1 a:hover {
-    background-color: #121212;
-    color: darkgrey;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown1:hover .dropdown-content1 {
-    display: block;
-}
-
-/* Change the color of the dropdown button when the dropdown content is shown */
-.dropdown1:hover .dropbtn1 {
-    background-color: #121212;
-    color: darkgrey;
-}
-/************************************************************************************************************/
-/************************************************************************************************************/
-/* Style The Dropdown Button */
-.dropbtn2 {
-    background-color: #121212;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown2 {
-    position: relative;
-    display: inline-block;
-    float: right;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content2 {
-    display: none;
-    position: absolute;
-    background-color: #121212;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content2 a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content2 a:hover {
-    background-color: #121212;
-    color: darkgrey;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown2:hover .dropdown-content2 {
-    display: block;
-}
-
-/* Change the color of the dropdown button when the dropdown content is shown */
-.dropdown2:hover .dropbtn2 {
+.drpdn:hover .dropbtn {
     background-color: #121212;
     color: darkgrey;
 }
@@ -238,7 +65,6 @@ a:hover{
     background-color: rgba(0,0,0,0);
     font-size: 3vw;
 }
-.title0{display: none;}
 #spc0{
 
     margin: 40px;
@@ -251,9 +77,7 @@ a:hover{
     width: 100%;
     padding-top: 60px;
     margin-bottom: 100px;
-    float: right;
     padding-bottom: 86px;
-    left: -50%; /* or right 50% */
     text-align: left;
 }
 .head > #blc {
@@ -293,8 +117,9 @@ a:hover{
     position: relative;
     left: -50%; /* or right 50% */
     text-align: center;
+
 }
-#pimg,#aimg,#bimg,#fimg{
+.imgs{
     background-image: url("images/p.jpg");
     background-size: 300px;
     background-repeat: no-repeat;
@@ -336,6 +161,7 @@ a:hover{
 }
 /*********************************************/
 @media screen and (max-width: 800px) {
+    #spc0{margin: 0;}
     .ddm{
         text-align: center;
         display: none;
@@ -344,7 +170,7 @@ a:hover{
         text-align: center;
         background-color: #101010;
         padding: 40px;
-        margin: 0px;
+        margin: 0;
         font-size: 20px;
         width: 100%;
     }
@@ -361,6 +187,6 @@ a:hover{
         display: inline-block;
         float: right;
 
+    }
+
 }
-
-
