@@ -2,23 +2,78 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="homeStyle.css">
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AVF</title>
 </head>
 <body>
-    <h2 class="title">AVF Magazin</h2>
-    <nav class="menu"><a href="index.html">Home</a></nav>
+    <button class="title" onclick="mobileMenu()">AVF Magazine</button>
+    <script>
+        function mobileMenu() {
+            if (window.innerWidth <=800){
+                var x = document.getElementById("ddm");
+                if (x.style.display === "none") {
+                    x.style.display = "inline-block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+        }
+    </script>
+
+<!--################### Dropdown Menu ##################-->
+    <div class="ddm" id="ddm">
+        <div class="dropdown">
+            <button class="dropbtn">ادبیات</button>
+            <div class="dropdown-content">
+                <a>adabiat</a>
+                <a>adabiat</a>
+                <a>adabiat</a>
+            </div>
+        </div>
+
+        <div class="dropdown0">
+            <button class="dropbtn0">هنر</button>
+            <div class="dropdown-content0">
+                <a>honar</a>
+                <a>honar</a>
+                <a>honar</a>
+            </div>
+        </div>
+
+        <div class="dropdown1">
+            <button class="dropbtn1">موسیقی</button>
+            <div class="dropdown-content1">
+                <a>mosighi</a>
+                <a>mosighi</a>
+                <a>mosighi</a>
+            </div>
+        </div>
+
+        <div class="dropdown2">
+            <button class="dropbtn2">فیلم</button>
+            <div class="dropdown-content2">
+                <a>film</a>
+                <a>film</a>
+                <a>film</a>
+            </div>
+        </div>
+    </div>
+
+<!--###############################################################-->
+
     <br id="spc0"/>
     <header class="head">
         <div id="blc">
         <h1 id="hd0" align="center">A V F<br/>M A G A Z I N E</h1>
-        <h1 id="hd1" align="center">***<br/>ایده یک سبک زندگی منحصر به فرد</h1>
+            <h1 id="hd1" align="center"><b id="devi">&times;</b><br/><br/>ایده یک سبک زندگی منحصر به فرد</h1>
         </div>
     </header>
-        <div align="center">
-            <p id="ART">ART</p><img id="pimg" src="https://res.cloudinary.com/dkwu3v93i/image/upload/v1544634788/TheAVF/p.jpg"><img id="aimg" src="https://res.cloudinary.com/dkwu3v93i/image/upload/v1544634743/TheAVF/art.jpg"><img id="bimg" src="https://res.cloudinary.com/dkwu3v93i/image/upload/v1544634742/TheAVF/b.jpg"><img id="fimg" src="https://res.cloudinary.com/dkwu3v93i/image/upload/v1544634786/TheAVF/f.jpg">
+        <div align="center" class="secs">
+            <div id="pimg"><button type="button" name="mscb" class="mscb">موسیقی</button></div>
+            <div id="aimg"><button type="button" name="mscb" class="mscb">هنر</button></div>
+            <div id="bimg"><button type="button" name="mscb" class="mscb">ادبیات</button></div>
+            <div id="fimg"><button type="button" name="mscb" class="mscb">فیلم</button></div>
         </div>
         <br>
-    </article>
 </body>
 </html>
